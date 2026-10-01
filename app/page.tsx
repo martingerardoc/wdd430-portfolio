@@ -39,7 +39,7 @@ export default function Home() {
         </p>
 
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Hi, I'm Martin Céspedes
+          Hi, I am Martin Céspedes
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg text-slate-600">

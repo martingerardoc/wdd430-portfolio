@@ -1,4 +1,10 @@
-import ProjectList from "@/components/ProjectList";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Me | Martin Céspedes",
+  description:
+    "Learn more about Martin Céspedes, a junior full-stack developer and software development student.",
+};
 
 export default function About() {
   return (
@@ -12,9 +18,9 @@ export default function About() {
 
           <div className="space-y-4 text-slate-600">
             <p>
-              I am a Software Developer with a background in Systems
+              I am a developer with a background in Systems
               Analysis and Electronics Technology. I am currently
-              completing my Bachelor's Degree in Software Development
+              completing my Bachelors Degree in Software Development
               at BYU-Idaho.
             </p>
 
