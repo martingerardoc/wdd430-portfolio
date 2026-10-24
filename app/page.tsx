@@ -27,6 +27,19 @@ const projects = [
     ],
     link: "https://cse340-course-j8kw.onrender.com/",
   },
+  {
+    title: "ProductHub — Micro-Feedback & Changelog",
+    description:
+      "ProductHub is a full-stack app for indie software teams to share product updates and gather user feedback. Visitors can explore projects, submit feature requests, and vote on ideas. Project admins can update roadmap statuses and manage release changelogs.",
+    technologies: [
+      "Next.js ",
+      "Neon PostgreSQL",
+      "TypeScript",
+      "Auth.js",
+      "Tailwind CSS 4",
+    ],
+    link: "https://wdd430-micro-feedback.vercel.app/",
+  },
 ];
 
 export default function Home() {
